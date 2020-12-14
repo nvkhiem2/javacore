@@ -23,6 +23,8 @@
       for ( int counter = 0; counter < array.length; counter++ )
          output += "   " + array[ counter ];
 
+      String a = "";
+
 
      JTextArea outputArea = new JTextArea();
      outputArea.setText( output );

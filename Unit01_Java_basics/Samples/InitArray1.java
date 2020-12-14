@@ -1,10 +1,11 @@
 // Fig. 7.14: InitArray.java
 // Initializing two-dimensional arrays.
-import java.awt.Container;
+
 import javax.swing.*;
+import java.util.Arrays;
 
 public class InitArray1 extends JApplet {
-   JTextArea outputArea;
+  static JTextArea outputArea = new JTextArea();
 
   public static void main( String args[] )
   {
@@ -18,4 +19,9 @@ public class InitArray1 extends JApplet {
      buildOutput( array2 );
 
   } // end method init
+
+    private static void buildOutput(int[][] array1) {
+        System.out.println("array1 = " + Arrays.deepToString(array1));
+    }
+  }
 
