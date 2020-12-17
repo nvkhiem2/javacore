@@ -1,2 +1,0 @@
-# javacore
-learn javacore 
